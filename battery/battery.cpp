@@ -103,6 +103,10 @@ int main()
 {
 	setlocale(LC_ALL, "");
 
+	extern int main4();
+	main4();
+	//return 0;
+
 	GetAll();
 
 	GUID* active_power_scheme;
